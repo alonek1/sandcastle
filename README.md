@@ -74,7 +74,8 @@ From the Amazon [documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev/U
 > In terms of implementation, buckets and objects are resources, and Amazon S3 provides APIs for you to manage them.
 
 ## Closing remarks
-* This is my first public security project. Sandcastle is published under the MIT License.
+* This is my first public security project; contributions very much appreciated!
+* Sandcastle is published under the [MIT License](https://github.com/yasinS/sandcastle/blob/master/LICENSE).
 * Usage acknowlegements:
   * Castle (icon) by Andrew Doane from the Noun Project
   * Nixie One (logo typeface) free by Jovanny Lemonad
