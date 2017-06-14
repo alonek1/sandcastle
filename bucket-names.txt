@@ -274,3 +274,8 @@
 .alpha
 .maven
 .github
+.co.uk
+.com
+.fr
+.de
+.es
