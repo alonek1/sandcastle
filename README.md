@@ -17,9 +17,10 @@ The script takes a target's name as the stem argument (e.g. `shopify`) and itera
 ```
 
 ## Getting started
-Here's how to get started:
+Sandcastle supports Linux and macOS clients. Here's how to get started:
 
 1. Clone this repo (PyPi distribution temporarily disabled)
+2. Install the [AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/installing.html) 
 2. Run `sandcastle.py` with your desired target name and an input file
 3. Matching bucket permutations will be identified and read permissions tested.
 
