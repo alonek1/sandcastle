@@ -33,7 +33,7 @@ for name in bucketNames:
 	r = requests.head("http://%s%s.s3.amazonaws.com" % (args.targetStem, name))
 	if r.status_code != 404:
 		print "[+] Checking potential match: %s%s --> %s" % (args.targetStem, name, r.status_code)
-		#check = commands.getoutput("aws s3 ls s3://%s%s" % (args.targetStem, name))
+		check = commands.getoutput("aws s3 ls s3://%s%s" % (args.targetStem, name))
 		print check
 	else:
 		sys.stdout.write('')
