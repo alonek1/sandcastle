@@ -32,12 +32,10 @@ print "[*] Commencing enumeration of '%s', reading %i lines from '%s'." % (args.
 for name in bucketNames:
 	r = requests.head("http://%s%s.s3.amazonaws.com" % (args.targetStem, name))
 	if r.status_code != 404:
-                # macOS, coming soon: os.system("notify Potential match found! %s%s: %s" % (args.targetStem, name, r.status_code))
 		print "[+] Checking potential match: %s%s --> %s" % (args.targetStem, name, r.status_code)
-		check = commands.getoutput("/usr/local/bin/aws s3 ls s3://%s%s" % (args.targetStem, name))
+		#check = commands.getoutput("aws s3 ls s3://%s%s" % (args.targetStem, name))
 		print check
 	else:
 		sys.stdout.write('')
 
 print "[*] Enumeration of '%s' buckets complete." % (args.targetStem)
-# macOS, coming soon: os.system("notify Enumeration of %s buckets complete." % (args.targetStem))
