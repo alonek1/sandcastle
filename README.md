@@ -19,9 +19,9 @@ The script takes a target's name as the stem argument (e.g. `shopify`) and itera
 ## Getting started
 Here's how to get started:
 
-1. Clone this repo (PyPi distribution temporarily disabled).
-2. Run `sandcastle.py` with a target name and input file (grab an example from this repo)
-3. Matching bucket permutations will be identified, and read permissions tested.
+1. Clone this repo (PyPi distribution temporarily disabled)
+2. Run `sandcastle.py` with your desired target name and an input file
+3. Matching bucket permutations will be identified and read permissions tested.
 
 ```
 usage: sandcastle.py [-h] -t targetStem [-f inputFile]
@@ -33,23 +33,6 @@ arguments:
   -f inputFile, --file inputFile
                         Select a bucket permutation file (default: bucket-
                         names.txt)
-```
-
-```
-   ____             __             __  __
-  / __/__ ____  ___/ /______ ____ / /_/ /__
- _\ \/ _ `/ _ \/ _  / __/ _ `(_-</ __/ / -_)
-/___/\_,_/_//_/\_,_/\__/\_,_/___/\__/_/\__/
-
-S3 bucket enumeration // release v1.2.4 // ysx
-
-
-[*] Commencing enumeration of 'shopify', reading 138 lines from 'bucket-names.txt'.
-
-[+] Checking potential match: shopify-content --> 403
-
-An error occurred (AccessDenied) when calling the ListObjects operation: Access Denied
-
 ```
 
 ### Status codes and testing
@@ -74,7 +57,7 @@ From the Amazon [documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev/U
 > In terms of implementation, buckets and objects are resources, and Amazon S3 provides APIs for you to manage them.
 
 ## Closing remarks
-* This is my first public security project; contributions very much appreciated!
+* This is my first public security project. Contributions are very much appreciated!
 * Sandcastle is published under the [MIT License](https://github.com/yasinS/sandcastle/blob/master/LICENSE).
 * Usage acknowlegements:
   * Castle (icon) by Andrew Doane from the Noun Project
