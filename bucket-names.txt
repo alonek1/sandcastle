@@ -84,6 +84,8 @@
 -projects
 -research
 -reseller
+-mac
+-linux
 -reserved
 -static
 -statistics
@@ -132,6 +134,7 @@
 -react
 -angular
 -website
+-windows
 -rest
 -graphite
 -logstash
