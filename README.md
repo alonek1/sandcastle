@@ -1,3 +1,8 @@
+## Development ceased: Sandcastle is at EOL
+Thanks for supporting the Sandcastle project. Apologies for the inconvenience, but upon consideration I've decided to cease development and place this project at End of Life. @tomdev's [Bucketeers](https://github.com/tomdev/teh_s3_bucketeers/) tool incorporates a wider range of scanning prefixes and is open to contribution PRs under the MIT License. Please feel free to use the `bucket-names.txt` list in your projects; a de-duplicated version can be found [here](https://gist.github.com/yasinS/9e77cecd2fe8b275006f0436c6443a13).
+
+<hr/>
+
 <p align="center">
    
 <img src="https://cloud.githubusercontent.com/assets/4115778/24827505/eab7322a-1c42-11e7-96f3-dbc772da5f10.png" width="70%" alt="Sandcastle logo - AWS S3 bucket enumeration">
