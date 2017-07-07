@@ -1,5 +1,5 @@
 ## Development ceased: Sandcastle is at EOL
-Update, as of Friday 7th July: Thanks for supporting the Sandcastle project. Apologies for the inconvenience, but upon consideration I've decided to cease development and place this project at End of Life. I would recommend @tomdev's [Bucketeers](https://github.com/tomdev/teh_s3_bucketeers/) tool, which incorporates a wider range of scanning prefixes and is open to contributions/PRs under the MIT License. Please feel free to use the `bucket-names.txt` list in your projects; a de-duplicated version can be found [here](https://gist.github.com/yasinS/9e77cecd2fe8b275006f0436c6443a13).
+Update, as of Friday 7th July: Thanks for supporting the Sandcastle project. Apologies for the inconvenience, but upon consideration I've decided to cease development and place this project at End of Life. I would recommend @tomdev's [Bucketeers](https://github.com/tomdev/teh_s3_bucketeers/) tool, which incorporates a wider range of scanning prefixes and is open to contributions/PRs under the MIT License. A de-duplicated version of the `bucket-names.txt` file can be found [here](https://gist.github.com/yasinS/9e77cecd2fe8b275006f0436c6443a13) for use in your own projects.
 
 <hr/>
 
